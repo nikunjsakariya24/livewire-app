@@ -48,8 +48,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.dashboard') }}"
-                        class="nav-link">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Appointmens
@@ -58,8 +57,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.dashboard') }}"
-                        class="nav-link">
+                    <a href="{{ route('admin.user') }}"
+                        class="nav-link  {{ Request::routeIs('admin.user') ? 'active' : ''}}">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Users
@@ -68,8 +67,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.dashboard') }}"
-                        class="nav-link">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Seetings
@@ -78,8 +76,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.dashboard') }}"
-                        class="nav-link">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Logout
